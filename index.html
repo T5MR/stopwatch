@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<!-- Coding by CodingLab | www.codinglabweb.com-->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-   <!-- <title> Stopwatch Timer application | CodingLab </title>-->
-    <link rel="stylesheet" href="https://t5mr.github.io/stopwatch/style.CSS">
+    <link rel="stylesheet" href="style.css">
    </head>
 <body>
   <div class="wrapper">
@@ -40,7 +38,7 @@
       ms++
       ms = ms < 10 ? "0" + ms : ms;
 
-      if(ms == 10){
+      if(ms == 100){
         sec++;
         sec = sec < 10 ? "0" + sec : sec;
         ms = "0" + 0;
