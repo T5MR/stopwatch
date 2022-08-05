@@ -34,7 +34,8 @@ body{
   color: #333;
 }
 .time span.colon{
-  width: 10px;
+  width: 30px;
+  text-align: right;
 }
 .time span.ms-colon,
 .time span.millisecond{
